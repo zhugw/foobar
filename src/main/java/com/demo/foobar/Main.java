@@ -9,6 +9,7 @@ import com.demo.foo.SkinServiceImpl;
 public class Main {
     public static void main(String[] args) {
         SkinServiceImpl app = new SkinServiceImpl();
-        app.entityToSkin(new SkinEntity());
+        SkinEntity entity = new SkinEntity();
+        app.entityToSkin(entity);
     }
 }
